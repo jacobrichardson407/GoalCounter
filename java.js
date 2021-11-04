@@ -85,12 +85,9 @@ button15.onclick = function () {
     document.getElementById("counterMinus7").innerHTML = count13;
 };
 
-// Remove 1 from Count buttons
-
-var button16 = document.getElementById("removeBtn1");
-button16.onclick = function () {
-    if (count >= 0) {
-        count -= 1;
-        document.getElementById("counterPlus1").innerHTML = count;
-    }
+// Remove 1 from Count plus buttons
+var buttonRemove1 = document.getElementById("removeBtn1");
+buttonRemove1.ondblclick = function () {
+    count = count - 1;
+    document.getElementById("counterPlus1")
 };
