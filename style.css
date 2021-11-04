@@ -50,6 +50,14 @@ button{
     width: 100%;
     position: relative;
 }
+p{
+    position: relative;
+    display: inline-block;
+    margin-left: 60%;
+    border: black 1px solid;
+    width: 6em;
+    padding: 2%;
+}
 /*
 .removeBtn{
     font-size: 20px;
