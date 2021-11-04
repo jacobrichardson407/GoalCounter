@@ -91,3 +91,9 @@ buttonRemove1.ondblclick = function () {
     count = count - 1;
     document.getElementById("counterPlus1").innerHTML = count;
 };
+function blurAll(){
+    var tmp = document.createElement("input");
+    document.body.appendChild(tmp);
+    tmp.focus();
+    document.body.removeChild(tmp);
+}
