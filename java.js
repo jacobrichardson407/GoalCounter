@@ -89,5 +89,5 @@ button15.onclick = function () {
 var buttonRemove1 = document.getElementById("removeBtn1");
 buttonRemove1.ondblclick = function () {
     count = count - 1;
-    document.getElementById("counterPlus1")
+    document.getElementById("counterPlus1").innerHTML = count;
 };
