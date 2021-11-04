@@ -25,7 +25,7 @@ img{
 .goalCounter{
     display: inline-block;
     position: relative;
-    width: fit-content;
+    width: 40%;
 }
 button:hover{
     border: black 1px solid;
