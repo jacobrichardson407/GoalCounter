@@ -270,3 +270,25 @@ buttonRemove14.onclick = function () {
     let totalPercentage7 = (count6 / totalTests7) * 100;
     document.getElementById("percentage7").innerHTML = "% Correct: " + totalPercentage7.toFixed(1) + "% : " + count6 +"/"+ totalTests7;
 };
+
+
+// // Add new button
+// var addButton = document.getElementById("addBtn")
+// addButton.onclick = function duplicate() {
+//     // Get the element
+// var elem = document.querySelector('#goalDiv');
+
+// // Create a copy of it
+// var clone = elem.cloneNode(true);
+
+// // Update the ID and add a class
+// clone.id = 'elem2';
+// clone.classList.add('newGoal');
+
+// // Inject it into the DOM
+// elem.after(clone);
+// };
+
+
+
+
